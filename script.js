@@ -38,3 +38,15 @@ menuLateral.querySelectorAll('a').forEach(link => {
     function fecharMenu() {
       document.getElementById('menuLateral').style.display = 'none';
     }
+
+function enviarFormulario(event) {
+  event.preventDefault();
+  document.getElementById("mensagem-enviada").style.display = "block";
+
+  setTimeout(() => {
+    document.getElementById("mensagem-enviada").style.display = "none";
+    document.querySelector(".formulario").reset();
+  }, 3000);
+
+  return false;
+}
