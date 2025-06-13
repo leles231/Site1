@@ -22,11 +22,11 @@ main {
   position: fixed;
   left: 0;
   top: 0;
-  width: 70%;
+  width: 80%;
   height: 100%;
   background-color: #2e7d32;
   color: white;
-  padding: 20px;
+  padding: 16px;
   display: none;
   flex-direction: column;
   z-index: 1000;
@@ -207,9 +207,9 @@ footer {
 /* FORMULÁRIO DE OPINIÃO MODERNO */
 .formulario {
   background-color: rgba(241, 248, 233, 0.95);
-  padding: 20px;
+  padding: 15px;
   border-radius: 15px;
-  margin: 20px 10px;
+  margin: 15px 5px;
   box-shadow: 0 2px 10px rgba(0, 50, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -227,8 +227,8 @@ footer {
 .formulario textarea {
   background-color: rgba(200, 230, 201, 0.4);
   border: 1px solid #a5d6a7;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 8px;
+  padding: 8px;
   font-size: 14px;
   color: #1b5e20;
   resize: none;
