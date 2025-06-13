@@ -22,7 +22,7 @@ main {
   position: fixed;
   left: 0;
   top: 0;
-  width: 50%;
+  width: 70%;
   height: 100%;
   background-color: #2e7d32;
   color: white;
@@ -39,7 +39,7 @@ main {
 }
 
 .menu-lateral ul li {
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .menu-lateral ul li a {
@@ -51,7 +51,7 @@ main {
 }
 
 .icon {
-  width: 20px;
+  width: 15px;
   margin-right: 10px;
   border-radius: 50%;
 }
