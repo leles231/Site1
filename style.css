@@ -22,11 +22,11 @@ main {
   position: fixed;
   left: 0;
   top: 0;
-  width: 80%;
+  width: 70%;
   height: 100%;
   background-color: #2e7d32;
   color: white;
-  padding: 16px;
+  padding: 20px;
   display: none;
   flex-direction: column;
   z-index: 1000;
@@ -39,13 +39,13 @@ main {
 }
 
 .menu-lateral ul li {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .menu-lateral ul li a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   align-items: center;
 }
@@ -225,7 +225,7 @@ footer {
 
 .formulario input,
 .formulario textarea {
-  background-color: rgba(200, 230, 201, 0.4);
+  background-color: rgba(200, 230, 201, 0.2);
   border: 1px solid #a5d6a7;
   border-radius: 8px;
   padding: 8px;
