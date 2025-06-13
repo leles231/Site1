@@ -1,0 +1,246 @@
+/* CONFIGURAÇÕES GERAIS */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4fdf4;
+  color: #1b5e20;
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+main {
+  padding: 10px;
+}
+
+/* MENU LATERAL */
+.menu-lateral {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #2e7d32;
+  color: white;
+  padding: 20px;
+  display: none;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.menu-lateral ul li {
+  margin: 15px 0;
+}
+
+.menu-lateral ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+
+
+/* CABEÇALHO */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b5e20;
+  color: white;
+  padding: 10px 20px;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.titulo-projeto {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* BLOCOS */
+.bloco {
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.bloco.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fundo-claro {
+  background-color: #f1f8e9;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgba(27, 94, 32, 0.8);
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: rgba(27, 94, 32, 1);
+}
+
+/* CARDS COM ÍCONES */
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.card {
+  background-color: #c8e6c9;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 5px;
+  color: #1b5e20;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* NOTÍCIAS */
+.noticias ul {
+  padding-left: 20px;
+}
+
+.noticias li {
+  margin: 8px 0;
+}
+
+/* RODAPÉ */
+footer {
+  background-color: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 30px;
+}
+
+.logo-footer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.redes img {
+  width: 24px;
+  margin: 0 5px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  .menu-lateral {
+    width: 50%;
+  }
+  .cards-section {
+    flex-direction: column;
+  }
+  .titulo-projeto h1 {
+    font-size: 20px;
+  }
+  .botao {
+    width: 90%;
+    max-width: 300px;
+  }
+ /* Formulário de Opinião */
+.formulario {
+  background-color: #f1f8e9;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #c8e6c9;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Linhas entre itens do menu lateral */
+.menu-lateral ul li {
+  margin: 15px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  padding-bottom: 10px;
+}
+
+/* Melhor adaptação do botão no formulário */
+.formulario button.botao {
+  width: auto;
+  align-self: center;
+  padding: 10px 25px;
+  font-size: 16px;
+}
+
