@@ -109,11 +109,11 @@ header {
 .botao {
   display: inline-block;
   margin-top: 10px;
-  padding: 10px 20px;
-  background-color: rgba(27, 94, 32, 0.8);
+  padding: 10px 15px;
+  background-color: rgba(27, 94, 32, 0.6);
   color: white;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 15px;
   transition: background-color 0.3s;
 }
 
@@ -173,7 +173,7 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 10px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .logo-footer {
