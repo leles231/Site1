@@ -277,6 +277,45 @@ footer {
 .formulario {
   animation: fadeInUp 0.6s ease both;
 }
+/* Texto sobre imagem na seção inicial */
+.bloco-imagem-texto {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.bloco-imagem-texto img {
+  width: 100%;
+  display: block;
+  filter: brightness(0.8);
+}
+
+.texto-sobre-imagem {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+.texto-sobre-imagem h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.texto-sobre-imagem p {
+  font-size: 14px;
+}
+
+/* Área do mapa */
+.mapa-container {
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
 
 @keyframes fadeInUp {
   0% {
