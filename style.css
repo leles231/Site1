@@ -37,9 +37,13 @@ main {
   padding: 0;
   margin-top: 15px;
 }
-
 .menu-lateral ul li {
-  margin: 15px 0;
+  border-bottom: 1px solid #a5d6a7;  /* Linha separadora */
+  padding: 10px 15px;
+}
+
+.menu-lateral ul li:last-child {
+  border-bottom: none;  /* Remove linha da última opção */
 }
 
 .menu-lateral ul li a {
@@ -56,7 +60,12 @@ main {
   border-radius: 50%;
 }
 
-
+.titulo-artigos {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0 10px 0;
+  color: #1b5e20;
+}
 
 /* CABEÇALHO */
 header {
@@ -128,26 +137,31 @@ header {
   gap: 15px;
   margin: 15px 0;
 }
-
 .card {
   background-color: #c8e6c9;
-  padding: 10px;
-  border-radius: 15px;
+  padding: 10px;                 /* Diminui a área interna */
+  border-radius: 8px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.6s ease;
+  font-size: 13px;               /* Texto menor */
 }
+
+.card img {
+  width: 35px;                   /* Ícone menor */
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 12px;               /* Texto dos artigos menor */
+}
+
 
 .card.show {
   opacity: 1;
   transform: translateY(0);
-}
-
-.card img {
-  width: 50px;
-  margin-bottom: 10px;
 }
 
 .card a {
