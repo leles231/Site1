@@ -278,35 +278,45 @@ footer {
   animation: fadeInUp 0.6s ease both;
 }
 /* Texto sobre imagem na seção inicial */
-.bloco-imagem-texto {
+.bloco-imagem {
   position: relative;
-  overflow: hidden;
+  background-image: url('ufs.png'); /* coloque o caminho da sua imagem */
+  background-size: cover;
+  background-position: center;
   border-radius: 10px;
-}
-
-.bloco-imagem-texto img {
-  width: 100%;
-  display: block;
-  filter: brightness(0.5);
-}
-
-.texto-sobre-imagem {
-  position: absolute;
-  top: 20%;
-  left: 10%;
+  padding: 40px 20px;
+  margin: 20px 10px;
   color: white;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  overflow: hidden;
 }
 
-.texto-sobre-imagem h2 {
-  font-size: 20px;
+.bloco-imagem::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Deixa o fundo escuro e meio transparente */
+  z-index: 1;
+}
+
+.bloco-imagem .texto-imagem {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.bloco-imagem .texto-imagem h2 {
+  font-size: 22px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.texto-sobre-imagem p {
+.bloco-imagem .texto-imagem p {
   font-size: 14px;
 }
+
 
 /* Área do mapa */
 .mapa-container {
