@@ -283,8 +283,8 @@ footer {
   background-image: url('ufs.png'); /* coloque o caminho da sua imagem */
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
-  padding: 40px 20px;
+  border-radius: 0px;
+  padding: 20px 20px;
   margin: 20px 10px;
   color: white;
   overflow: hidden;
@@ -295,8 +295,8 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background-color: rgba(0, 0, 0, 0.4); /* Deixa o fundo escuro e meio transparente */
   z-index: 1;
 }
@@ -308,13 +308,13 @@ footer {
 }
 
 .bloco-imagem .texto-imagem h2 {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .bloco-imagem .texto-imagem p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 
