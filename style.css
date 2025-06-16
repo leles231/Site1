@@ -137,49 +137,6 @@ header {
   gap: 15px;
   margin: 15px 0;
 }
-.card {
-  background-color: #c8e6c9;
-  padding: 10px;                 /* Diminui a área interna */
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.6s ease;
-  font-size: 13px;               /* Texto menor */
-}
-
-.card img {
-  width: 35px;                   /* Ícone menor */
-  margin-bottom: 8px;
-}
-
-.card p {
-  font-size: 12px;               /* Texto dos artigos menor */
-}
-
-
-.card.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.card a {
-  display: inline-block;
-  margin-top: 5px;
-  color: #1b5e20;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-/* NOTÍCIAS */
-.noticias ul {
-  padding-left: 20px;
-}
-
-.noticias li {
-  margin: 8px 0;
-}
 
 /* RODAPÉ */
 footer {
@@ -277,46 +234,7 @@ footer {
 .formulario {
   animation: fadeInUp 0.6s ease both;
 }
-/* Texto sobre imagem na seção inicial */
-.bloco-imagem {
-  position: relative;
-  background-image: url('ufs.png'); /* coloque o caminho da sua imagem */
-  background-size: cover;
-  background-position: center;
-  border-radius: 0px;
-  padding: 10px 10px;
-  margin: 10px 10px;
-  color: white;
-  overflow: hidden;
-}
-  
-.bloco-imagem::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Deixa o fundo escuro e meio transparente */
-  z-index: 1;
-}
 
-
-.bloco-imagem .texto-imagem {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-}
-
-.bloco-imagem .texto-imagem h2 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.bloco-imagem .texto-imagem p {
-  font-size: 16px;
-}
 
 
 /* Área do mapa */
@@ -327,6 +245,125 @@ footer {
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+  /* BLOCO IMAGEM COM TEXTO SOBREPOSTO */
+.bloco-imagem {
+  position: relative;
+  background-image: url('sua-imagem.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 40px 20px;
+  margin: 20px 10px;
+  color: white;
+  overflow: hidden;
+}
+
+.bloco-imagem::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.bloco-imagem .texto-imagem {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+/* INTRODUÇÃO COM TEXTO E IMAGEM COM LEGENDA */
+.introducao {
+  padding: 15px;
+  margin: 10px;
+  background-color: #f1f8e9;
+  border-radius: 10px;
+}
+
+.introducao h3 {
+  color: #2e7d32;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.conteudo-introducao p {
+  font-size: 13px;
+  color: #4e4e4e;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.imagem-legenda {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.imagem-legenda img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.imagem-legenda .legenda {
+  font-size: 12px;
+  color: #555;
+  font-style: italic;
+}
+
+/* CARDS VERDES - DIMINUIR TAMANHO */
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 50, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 40px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #2e7d32;
+  margin-bottom: 5px;
+}
+
+.card a {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 15px;
+  background-color: #388e3c;
+  color: white;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background-color: #2e7d32;
+}
+
+/* RESPONSIVO GERAL */
+@media (max-width: 600px) {
+  .imagem-legenda {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 
 @keyframes fadeInUp {
   0% {
