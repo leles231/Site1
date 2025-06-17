@@ -26,7 +26,7 @@ main {
   height: 100%;
   background-color: #2e7d32;
   color: white;
-  padding: 12px;
+  padding: 9px;
   display: none;
   flex-direction: column;
   z-index: 1000;
@@ -49,20 +49,20 @@ main {
 .menu-lateral ul li a {
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   display: flex;
   align-items: center;
 }
 
 .icon {
-  width: 15px;
-  margin-right: 10px;
+  width: 17px;
+  margin-right: 12px;
   border-radius: 50%;
 }
 
 .titulo-artigos {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   margin: 20px 0 10px 0;
   color: #1b5e20;
 }
@@ -74,7 +74,7 @@ header {
   justify-content: space-between;
   background-color: #1b5e20;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 
 .menu-toggle {
@@ -88,8 +88,8 @@ header {
 }
 
 .logo {
-  width: 25px;
-  height: 25px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -116,18 +116,18 @@ header {
 }
   
 .conteudo-bloco card-verde p {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 14px;
+  margin-bottom: 12px;
 }
 
 .conteudo-bloco fundo-claro card-verde p {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 14px;
+  margin-bottom: 12px;
 }
 
 .botao {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 14px;
   padding: 10px 20px;
   background-color: rgba(27, 94, 32, 0.8);
   color: white;
@@ -198,7 +198,7 @@ footer {
 }
 
 .formulario label {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: #2e7d32;
   margin-bottom: 4px;
@@ -210,7 +210,7 @@ footer {
   border: 1px solid #a5d6a7;
   border-radius: 8px;
   padding: 8px;
-  font-size: 14px;
+  font-size: 16px;
   color: #1b5e20;
   resize: none;
   outline: none;
@@ -229,7 +229,7 @@ footer {
   background-color: rgba(56, 142, 60, 0.85);
   padding: 12px;
   border-radius: 25px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
   color: white;
   border: none;
@@ -306,7 +306,7 @@ footer {
 }
 
 .conteudo-introducao p {
-  font-size: 13px;
+  font-size: 14px;
   color: #4e4e4e;
   line-height: 1.5;
   margin-bottom: 10px;
