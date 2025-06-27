@@ -23,7 +23,7 @@ main {
   top: 0;
   width: 55%;
   height: 100%;
-  background-color: rgba(57, 130, 61, 0.9);
+  background-color: rgba(57, 130, 61, 1);
   color: white;
   padding: 10px;
   display: none;
@@ -159,23 +159,23 @@ header {
 
 /* INTRODUÇÃO */
 .introducao {
-  padding: 15px;
-  margin: 10px;
+  padding: 12px;
+  margin: 8px;
   background-color: #f1f8e9;
   border-radius: 10px;
 }
 
 .introducao h3 {
   color: #2e7d32;
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 
 .conteudo-introducao p {
-  font-size: 12px;
+  font-size: 13px;
   color: #4e4e4e;
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 
