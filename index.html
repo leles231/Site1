@@ -1,125 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sustainable University - UEFS</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestão de Socioecossistemas UEFS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-  <!-- Cabeçalho com barra de busca -->
-  <header>
-    <div class="titulo-projeto">
-      <img src="logo.png" class="logo" alt="logo projeto"/>
-      <h3>Sustainable University</h3>
-    </div>
-    <div class="busca">
-      <input type="text" placeholder="Buscar..." />
-      <img src="icons/search.svg" class="icone-busca" alt="buscar"/>
-    </div>
-    <div id="menu-toggle" class="menu-toggle">☰</div>
-  </header>
+<header>
+  <div class="titulo-projeto">
+    <img src="logo.png" alt="Logo do Projeto" class="logo">
+    <h3>Sustainable University</h3>
+  </div>
+  <div class="barra-pesquisa">
+    <input type="text" placeholder="Buscar...">
+    <button><i class="fas fa-search"></i></button>
+  </div>
+  <div id="menu-toggle" class="menu-toggle">☰</div>
+</header>
 
-  <!-- Menu Lateral -->
-  <nav id="menu-lateral" class="menu-lateral">
-    <ul>
-      <li><a href="#inicio">Início</a></li>
-      <li><a href="bio.html">Biodiversidade</a></li>
-      <li><a href="gestao.html">Gestão do Campus</a></li>
-      <li><a href="#equipe">Equipe</a></li>
-      <li><a href="#participar">Participar</a></li>
-    </ul>
-  </nav>
+<nav id="menu-lateral" class="menu-lateral">
+  <ul>
+    <li><a href="#inicio">Início</a></li>
+    <li><a href="bio.html">Biodiversidade do campus</a></li>
+    <li><a href="gestao.html">Gestão do Campus</a></li>
+    <li><a href="#equipe">Equipe</a></li>
+    <li><a href="#participar">Participar</a></li>
+  </ul>
+</nav>
 
-  <main>
-
-    <!-- Bloco com imagem vertical no topo e conteúdo no meio -->
-    <section class="bloco-imagem">
+<main>
+  <!-- Banner -->
+  <section id="inicio">
+    <div class="bloco-imagem">
       <div class="texto-imagem">
         <h3><strong>Gestão de Socioecossistemas da UEFS</strong></h3>
         <p>"Conhecer para preservar"</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Seção da UFSS com imagem, texto e botão -->
-    <section class="bloco destaque">
-      <h2>Universidade Estadual de Feira de Santana</h2>
-      <p>A UEFS é um espaço de conhecimento, pesquisa e preservação. Participe conosco das ações que promovem uma universidade mais sustentável e colaborativa.</p>
-      <a href="https://uefs.br" target="_blank" class="botao">Saiba Mais</a>
-    </section>
-
-    <!-- Blocos informativos -->
-    <section class="cards-section">
-      <div class="card">
-        <h2>Programas Envolvidos</h2>
-        <p>Conheça os projetos de extensão e os programas que trabalham com educação ambiental na UEFS.</p>
-        <img src="amo.jpg" alt="programa">
-        <a href="#">Saiba Mais</a>
+  <!-- Introdução -->
+  <section class="introducao">
+    <h3>SOBRE O PROJETO</h3>
+    <div class="conteudo-introducao">
+      <p>
+        Esse espaço virtual tem como intuito divulgar, promover e conscientizar a educação ambiental no campus da <strong> Universidade Estadual de Feira de Santana (UEFS).</strong> [...] incentivar práticas sustentáveis dentro da comunidade acadêmica e a população residente ao entorno.
+      </p>
+      <div class="imagem-legenda">
+        <img src="imagem.jpg" alt="Extensão UEFS">
+        <span class="legenda"> Incentivando a Extensão e Educação Ambiental</span>
       </div>
-      <div class="card">
-        <h2>Bibliografia</h2>
-        <p>Acesse artigos e periódicos sobre a biodiversidade do campus.</p>
-        <img src="biblio.jpg" alt="biblio">
-        <a href="#">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- Blocos Cards -->
+  <section>
+    <div class="bloco card-verde">
+      <h2>Programas envolvidos</h2>
+      <p>O Programa de Pesquisa e Extensão Estudos e Educação Ambiental da UEFS (EEA) [...].</p>
+      <img src="amo.jpg" alt="Imagem 1">
+      <a href="pro.html" class="botao pequeno">Saiba Mais</a>
+    </div>
+    <div class="bloco fundo-claro card-verde">
+      <h2>Depósito Bibliográfico</h2>
+      <p>Artigos de referência sobre a biodiversidade presente no campus [...].</p>
+      <img src="biblio.jpg" alt="Imagem 2">
+      <a href="art.html" class="botao pequeno">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="depoimentos">
+    <h3>Depoimentos</h3>
+    <div class="carousel">
+      <div class="depoimento-card">
+        <img src="pessoa1.jpg" alt="Pessoa 1">
+        <p>"Esse projeto me fez enxergar a universidade com outros olhos."</p>
+        <strong>Maria Oliveira</strong>
       </div>
-    </section>
-
-    <!-- Depoimentos -->
-    <section id="depoimentos">
-      <h2 class="titulo-artigos">O que dizem sobre o projeto</h2>
-      <div class="carrossel">
-        <button class="seta" onclick="moverDepoimento(-1)">←</button>
-        <div class="depoimento ativo">
-          <img src="usuario1.jpg" alt="usuário">
-          <p>"Esse projeto mudou minha forma de ver o campus. Muito importante!"</p>
-          <span>- Ana Souza</span>
-        </div>
-        <div class="depoimento">
-          <img src="usuario2.jpg" alt="usuário">
-          <p>"Aprendi muito sobre a biodiversidade da UEFS. Parabéns à equipe!"</p>
-          <span>- Carlos Lima</span>
-        </div>
-        <button class="seta" onclick="moverDepoimento(1)">→</button>
+      <div class="depoimento-card">
+        <img src="pessoa2.jpg" alt="Pessoa 2">
+        <p>"Participei da campanha sobre resíduos, foi transformador."</p>
+        <strong>João Silva</strong>
       </div>
-      <a href="depoimentos.html" class="botao">Ver todos os depoimentos</a>
-    </section>
+    </div>
+    <div class="botoes-carousel">
+      <button class="seta-esquerda">←</button>
+      <button class="seta-direita">→</button>
+    </div>
+    <a href="#" class="botao">Ver todos os depoimentos</a>
+  </section>
 
-    <!-- Mapa -->
-    <section id="mapa" class="mapa-container">
-      <h3>MAPS UEFS</h3>
-      <p>Visualize a localização da UEFS e compreenda melhor sua estrutura territorial.</p>
-      <iframe src="https://www.google.com/maps/embed?..."
-              width="100%" height="250" style="border:0;" allowfullscreen=""></iframe>
-    </section>
+  <!-- Mapa UEFS -->
+  <section id="mapa">
+    <h3>MAPS UEFS</h3>
+    <p>Visualize toda a área da universidade.</p>
+    <div class="mapa-container">
+      <iframe src="https://www.google.com/maps/embed?..." width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
 
-    <!-- Opinião horizontal -->
-    <section id="opiniao-horizontal">
-      <h3>Deixe sua Opinião</h3>
-      <form class="formulario-horizontal" onsubmit="return enviarFormulario(event)">
-        <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
-        <input type="email" id="email" name="email" placeholder="Seu e-mail" required />
-        <textarea id="sugestao" name="sugestao" rows="2" placeholder="Sua sugestão" required></textarea>
+  <!-- Opinião -->
+  <section id="opiniao-horizontal">
+    <div class="formulario-opiniao">
+      <form class="formulario" onsubmit="return enviarFormulario(event)">
+        <h4>Deixe sua opinião</h4>
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <textarea name="sugestao" rows="3" placeholder="Escreva sua sugestão..." required></textarea>
         <button type="submit" class="botao">Enviar</button>
       </form>
-      <p id="mensagem-enviada" style="display: none;">✔️ Obrigado pela sua opinião!</p>
-    </section>
-
-  </main>
-
-  <!-- Rodapé -->
-  <footer>
-    <img src="logo.png" class="logo-footer" alt="logo rodapé">
-    <p>Projeto de Extensão UEFS – Gestão Socioecossistêmica</p>
-    <div class="redes">
-      <a href="https://instagram.com" target="_blank"><img src="icons/instagram.svg" alt="Instagram"></a>
-      <a href="https://uefs.br" target="_blank"><img src="icons/globe.svg" alt="Site UEFS"></a>
-      <a href="https://youtube.com" target="_blank"><img src="icons/youtube.svg" alt="YouTube"></a>
     </div>
-    <p>Email do projeto: <a href="mailto:projeto@uefs.br">projeto@uefs.br</a></p>
-    <p>Email UEFS: <a href="mailto:contato@uefs.br">contato@uefs.br</a> | Tel: (75) 3161-8000</p>
-  </footer>
+  </section>
 
+</main>
+
+<footer>
+  <img src="logo.png" alt="Logo" class="logo-footer">
+  <p>Projeto de Extensão UEFS – Educação ambiental e gestão participativa</p>
+  <p><i>Universidade Estadual de Feira de Santana</i></p>
+  <div class="redes">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fas fa-globe"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+  <p>Email: projeto@uefs.br | UFSS: contato@ufss.br | Telefone: (75) 99999-0000</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
