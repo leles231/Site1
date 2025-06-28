@@ -158,12 +158,12 @@ header {
 } 
 
 .bloco-imagem .texto-imagem h3 {
-  font-size: 18px;
+  font-size: 20px;
   color: whiter;
-  margin: 14px;
+  margin: 17px;
 }
 .bloco-imagem .texto-imagem p {
-  font-size: 9px;
+  font-size: 16px;
   color: whiter;
   margin: 14px;
 }
@@ -306,9 +306,9 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .conteudo-mapa h3{
-  font-size: 16px;
+  font-size: 18px;
   color: #4e4e4e;
-  margin: 20px 0 10px 0;
+  margin: 20px 10px ;
   line-height: 1.5;
 
 }
@@ -316,7 +316,7 @@ header {
   font-size: 9px;
   color: #4e4e4e;
   line-height: 1.5;
-  margin: 20px 0 10px 0;
+  margin: 20px 10px;
 }
 
 
@@ -330,8 +330,8 @@ footer {
 }
 
 .logo-footer {
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
