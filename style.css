@@ -156,13 +156,13 @@ header {
   z-index: 2;
   text-align: center;
 }
-.blobo-imagem-texto-imagem h3 {
+.conteudo-blobo-imagem-texto-imagem h3 {
   font-size: 18px;
   color: whiter;
   line-height: 1.5;
   margin-bottom: 14px;
 }
-.bloco-imagem-texto-imagem p {
+.conteudo-bloco-imagem-texto-imagem p {
   font-size: 9px;
   color: whiter;
   line-height: 1.5;
@@ -192,7 +192,7 @@ header {
   margin-bottom: 14px;
 }
 .conteudo- legenda a {
-  font-size: 7px;
+  font-size: 5px;
   color: #4e4e4e;
   line-height: 1.5;
   margin-bottom: 14px;
@@ -306,16 +306,16 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .conteudo-mapa h3{
-  font-size: 13px;
+  font-size: 14px;
   color: #4e4e4e;
   line-height: 1.5;
   margin-bottom: 14px;
 }
 .conteudo-mapa p {
-  font-size: 10px;
+  font-size: 8px;
   color: #4e4e4e;
   line-height: 1.5;
-  margin-bottom: 14px;
+  margin-bottom: 11px;
 }
 
 
