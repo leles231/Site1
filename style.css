@@ -151,18 +151,14 @@ header {
   z-index: 1;
 }
 
-.bloco-imagem .texto-imagem {
+.bloco-imagem .texto-imagem h3 {
   position: relative;
   z-index: 2;
   text-align: center;
-}
-.conteudo-blobo-imagem-texto-imagem h3 {
   font-size: 18px;
   color: whiter;
-  line-height: 1.5;
-  margin-bottom: 14px;
 }
-.conteudo-bloco-imagem-texto-imagem p {
+.conteudo-texto-imagem p {
   font-size: 9px;
   color: whiter;
   line-height: 1.5;
