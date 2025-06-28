@@ -308,7 +308,6 @@ header {
 .conteudo-mapa h3{
   font-size: 16px;
   color: #4e4e4e;
-  text-align: center;
   margin: 20px 0 10px 0;
   line-height: 1.5;
 
@@ -317,8 +316,7 @@ header {
   font-size: 9px;
   color: #4e4e4e;
   line-height: 1.5;
-  text-align: center;
-  margin: 20px 0 10px
+  margin: 20px 0 10px 0;
 }
 
 
