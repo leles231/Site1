@@ -151,18 +151,21 @@ header {
   z-index: 1;
 }
 
-.bloco-imagem .texto-imagem h3 {
+.bloco-imagem .texto-imagem  {
   position: relative;
   z-index: 2;
   text-align: center;
+} 
+
+.bloco-imagem .texto-imagem h3 {
   font-size: 18px;
   color: whiter;
+  margin: 14px;
 }
-.conteudo-texto-imagem p {
+.bloco-imagem .texto-imagem p {
   font-size: 9px;
   color: whiter;
-  line-height: 1.5;
-  margin-bottom: 14px;
+  margin: 14px;
 }
 
 
@@ -200,6 +203,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
+ x;
   padding: 12px;
 }
 
@@ -296,7 +300,7 @@ header {
 /* MAPA */
 .mapa-container {
   width: 100%;
-  margin: 20px 0;
+  text-align: center;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
