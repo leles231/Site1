@@ -57,7 +57,7 @@ main {
 /* TÍTULO */
 .titulo-artigos {
   text-align: center;
-  font-size: 18px;
+  font-size: 19px;
   margin: 20px 0 10px 0;
   color: #1b5e20;
 }
@@ -157,7 +157,7 @@ header {
   text-align: center;
 }
 .conteudo-texto-imagem h3 {
-  font-size: 13px;
+  font-size: 18px;
   color: whiter;
   line-height: 1.5;
   margin-bottom: 14px;
@@ -186,13 +186,13 @@ header {
 }
 
 .conteudo-introducao p {
-  font-size: 13px;
+  font-size: 14px;
   color: #4e4e4e;
   line-height: 1.5;
   margin-bottom: 14px;
 }
 .conteudo- legenda a {
-  font-size: 10px;
+  font-size: 9px;
   color: #4e4e4e;
   line-height: 1.5;
   margin-bottom: 14px;
@@ -204,12 +204,12 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 10px;
+  padding: 12px;
 }
 
 .card {
   background-color: #e8f5e9;
-  padding: 10px;
+  padding: 12px;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 1px 4px rgba(0, 50, 0, 0.1);
