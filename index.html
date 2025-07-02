@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestão de Socioecossistemas UEFS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="titulo-projeto">
+    <img src="logo.png" alt="Logo do Projeto" class="logo">
+    <h3>Sustainable University</h3>
+  </div>
+  <div id="menu-toggle" class="menu-toggle">☰</div>
+</header>
+
+<nav id="menu-lateral" class="menu-lateral">
+  <ul>
+    <li><a href="#inicio">Início</a></li>
+    <li><a href="bio.html">Biodiversidade do campus</a></li>
+    <li><a href="gestao.html">Gestão do Campus</a></li>
+    <li><a href="#equipe">Equipe</a></li>
+    <li><a href="#participar">Participar</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- Bloco Imagem com Texto Sobreposto -->
+  <section id="inicio">
+    <div class="bloco-imagem">
+      <div class="texto-imagem">
+        <h3><strong>Gestão de Socioecossistemas da UEFS</strong></h3>
+        <p>"Conhecer para preservar"</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introdução com texto pequeno e imagem com legenda -->
+  <section class="introducao">
+    <h3>SOBRE O PROJETO</h3>
+    <div class="conteudo-introducao">
+      <p>
+         Esse espaço virtual tem como intuito divulgar, promover e conscientizar a educação ambiental no campus da <strong> Universidade Estadual de Feira de Santana (UEFS). </strong> Uma iniciativa da disciplina Gestão de Socioecossistemas e Bens Comuns - BIO 180, do Curso de Bacharelado em Ciências Biológicas, com o propósito de refletir e fortalecer práticas sustentáveis que promovam a valorização dos recursos naturais como bens coletivos.
+    </br>  Seu objetivo é compreender e divulgar as principais problemáticas socioambientais presentes no campus da UEFS, com foco na biodiversidade local — tanto da fauna quanto da flora —, bem como também na gestão inadequada de resíduos, descarte de lixo e outros impactos ambientais. A proposta é <strong> estimular a reflexão, promover a conscientização e incentivar práticas sustentáveis </strong> dentro da comunidade acadêmica e a população residente ao entorno.
+  </p>
+      <div class="imagem-legenda"> </br>
+        <span class="legenda"> Incentivando a Extensão e Educação Ambiental</span>
+      </div>
+    </div>
+  </section>
+  <br>
+  <!-- Blocos de conteúdo (cards menores) -->
+  <section>
+    <div class="bloco card-verde">
+      <h2>Programas envolvidos</h2>
+      <p>  
+O Programa de Pesquisa e Extensão Estudos e Educação Ambiental da UEFS (EEA), desenvolve ações voltadas para a formação de educadores, gestão de resíduos sólidos e promoção da sustentabilidade no campus. Além disso, a UEFS participa do Programa de Pesquisa em Biodiversidade (PPBio).
+ </p>
+      <img src="amo.jpg" alt="Imagem 1">
+      <a href="pro.html" class="botao pequeno">Saiba Mais</a>
+    </div>
+    <div class="bloco fundo-claro card-verde">
+      <h2>Depósito Bibliográfico</h2>
+      <p>Artigos de referência sobre a biodiversidade presente no campus,fauna e flora, podem ser encontrados na secção de periódicos da UEFS. Você poderá conhecer um pouco mais no nosso depósito bibliográfico. </p>
+      <img src="biblio.jpg" alt="Imagem 2">
+      <a href="art.html" class="botao pequeno">Saiba Mais</a>
+    </div>
+  </section>
+<br> <br> 
+  <!-- Google Maps -->
+  <section id="mapa">
+    <h3>MAPS UEFS</h3>
+    <p> Neste mapa será possível visualizar toda aérea  geográfica da UEFS. Auxiliando na Gestão participativa de todos, buscando a preservação e proteção da nossa comunidade.</p>
+    <div class="mapa-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.162619253306!2d-38.96342398569365!3d-12.23395084647802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716f9d040c5eced%3A0x22d007bf471e28f5!2sUEFS%20-%20Universidade%20Estadual%20de%20Feira%20de%20Santana!5e0!3m2!1spt-BR!2sbr!4v1718079180000!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section> <br>
+
+  <!-- Formulário de opinião -->
+  <section id="opiniao" class="titulo-artigos">
+    <form class="formulario" onsubmit="return enviarFormulario(event)">
+    <h4>DEIXE SUA OPINIÃO</h4>
+      <label for="nome">👤 Nome:</label>
+      <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+      <label for="email">📧 E-mail:</label>
+      <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+      <label for="sugestao">💬 Sugestão:</label>
+      <textarea id="sugestao" name="sugestao" rows="4" required placeholder="Escreva sua sugestão aqui..."></textarea>
+
+      <button type="submit" class="botao">Enviar</button>
+      <p id="mensagem-enviada" style="display: none; color: #2e7d32; font-weight: bold; margin-top: 10px;">✔️ Obrigado pela sua opinião!</p>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <img src="logo.png" alt="Logo" class="logo-footer">
+  <p>Projeto de Extensão UEFS – Educação ambiental e gestão participativa</p> </br> <p> <i> Universidade Estadual de Feira de Santana, Avenida transnodertina, s/n, Novo Horizonte,  Feira de Santana- Bahia </i> </p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
