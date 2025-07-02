@@ -15,7 +15,60 @@ main {
   padding: 10px;
 }
 
-/* MENU LATERAL */
+/* CABEÇALHO */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b5e20;
+  color: white;
+  padding: 10px 20px;
+}
+
+.menu-toggle {
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1100;
+}
+
+.menu-toggle.ativo {
+  transform: rotate(90deg);
+  transition: transform 0.4s ease;
+}
+
+.titulo-projeto {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* MENU LATERAL COM ANIMAÇÃO - DIREITA */
+.menu-lateral {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 60%;
+  height: 100%;
+  background-color: rgba(57, 130, 61, 1);
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.4s ease-in-out;
+  z-index: 1000;
+}
+
+.menu-lateral.ativo {
+  transform: translateX(0);
+}
 
 .menu-lateral ul {
   list-style: none;
@@ -46,28 +99,6 @@ main {
   font-size: 19px;
   margin: 20px 0 10px 0;
   color: #1b5e20;
-}
-
-/* CABEÇALHO */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #1b5e20;
-  color: white;
-  padding: 10px 20px;
-}
-
-.titulo-projeto {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-right: 10px;
 }
 
 /* BLOCOS */
@@ -114,7 +145,7 @@ header {
   background-size: cover;
   background-position: center;
   border-radius: 0px;
-  padding: 8px 8px;
+  padding: 8px;
   margin: 5px 0;
   color: white;
   overflow: hidden;
@@ -132,24 +163,18 @@ header {
   z-index: 1;
 }
 
-.bloco-imagem .texto-imagem  {
+.bloco-imagem .texto-imagem {
   position: relative;
   z-index: 2;
   text-align: center;
-} 
-
-.bloco-imagem .texto-imagem h3 {
-  font-size: 20px;
-  color: whiter;
-  margin: 17px;
 }
+
+.bloco-imagem .texto-imagem h3,
 .bloco-imagem .texto-imagem p {
-  font-size: 16px;
-  color: whiter;
+  font-size: 20px;
+  color: white;
   margin: 14px;
 }
-
-
 
 /* INTRODUÇÃO */
 .introducao {
@@ -171,20 +196,18 @@ header {
   line-height: 1.5;
   margin-bottom: 14px;
 }
-.conteudo- legenda a {
-  font-size: 5px;
+
+.conteudo-legenda a {
+  font-size: 14px;
   color: #4e4e4e;
   line-height: 1.5;
-  margin-bottom: 14px;
 }
-
 
 /* CARDS */
 .cards-section {
   display: flex;
   flex-direction: column;
   gap: 10px;
- x;
   padding: 12px;
 }
 
@@ -197,13 +220,13 @@ header {
 }
 
 .card img {
-  width: 35px;
-  height: 5px;
+  width: 100%;
+  height: auto;
   margin-bottom: 8px;
 }
 
 .card p {
-  font-size: 9px;
+  font-size: 14px;
   color: #2e7d32;
   margin-bottom: 12px;
 }
@@ -211,7 +234,7 @@ header {
 .card a {
   display: inline-block;
   padding: 10px 12px;
-  font-size: 9px;
+  font-size: 14px;
   border-radius: 15px;
   background-color: #388e3c;
   color: white;
@@ -222,7 +245,7 @@ header {
   background-color: #2e7d32;
 }
 
-/* FORMULÁRIO DE OPINIÃO */
+/* FORMULÁRIO */
 .formulario {
   background-color: rgba(241, 248, 233, 0.9);
   padding: 12px;
@@ -286,22 +309,34 @@ header {
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-.conteudo-mapa h3{
+
+.conteudo-mapa h3 {
   font-size: 18px;
   color: #4e4e4e;
-  margin: 20px 10px ;
+  margin: 20px 10px;
   line-height: 1.5;
   text-align: center;
-
 }
+
 .conteudo-mapa p {
-  font-size: 9px;
+  font-size: 14px;
   color: #4e4e4e;
   line-height: 1.5;
   margin: 20px 10px;
   text-align: center;
 }
 
+/* IMAGEM ABAIXO DO MAPA */
+.imagem-abaixo-mapa {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.imagem-abaixo-mapa img {
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
 
 /* RODAPÉ */
 footer {
@@ -337,50 +372,4 @@ footer {
     opacity: 1;
     transform: translateY(0);
   }
-}
-/* MENU LATERAL COM ANIMAÇÃO - DIREITA */
-.menu-lateral {
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 60%;
-  height: 100%;
-  background-color: rgba(57, 130, 61, 1);
-  color: white;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  transform: translateX(100%);
-  transition: transform 0.4s ease-in-out;
-  z-index: 1000;
-}
-
-.menu-lateral.ativo {
-  transform: translateX(0);
-}
-
-/* Botão menu no canto direito */
-.menu-toggle {
-  font-size: 30px;
-  cursor: pointer;
-  position: relative;
-  z-index: 1100;
-}
-
-/* ANIMAÇÃO DO ÍCONE HAMBÚRGUER */
-.menu-toggle.ativo {
-  transform: rotate(90deg);
-  transition: transform 0.4s ease;
-}
-
-/* IMAGEM ABAIXO DO MAPA */
-.imagem-abaixo-mapa {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.imagem-abaixo-mapa img {
-  width: 90%;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
