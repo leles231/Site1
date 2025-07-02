@@ -1,4 +1,3 @@
-/* CONFIGURAÇÕES GERAIS */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -17,19 +16,6 @@ main {
 }
 
 /* MENU LATERAL */
-.menu-lateral {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 55%;
-  height: 100%;
-  background-color: rgba(57, 130, 61, 1);
-  color: white;
-  padding: 10px;
-  display: none;
-  flex-direction: column;
-  z-index: 1000;
-}
 
 .menu-lateral ul {
   list-style: none;
@@ -70,11 +56,6 @@ header {
   background-color: #1b5e20;
   color: white;
   padding: 10px 20px;
-}
-
-.menu-toggle {
-  font-size: 30px;
-  cursor: pointer;
 }
 
 .titulo-projeto {
@@ -356,4 +337,50 @@ footer {
     opacity: 1;
     transform: translateY(0);
   }
+}
+/* MENU LATERAL COM ANIMAÇÃO - DIREITA */
+.menu-lateral {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 60%;
+  height: 100%;
+  background-color: rgba(57, 130, 61, 1);
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.4s ease-in-out;
+  z-index: 1000;
+}
+
+.menu-lateral.ativo {
+  transform: translateX(0);
+}
+
+/* Botão menu no canto direito */
+.menu-toggle {
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1100;
+}
+
+/* ANIMAÇÃO DO ÍCONE HAMBÚRGUER */
+.menu-toggle.ativo {
+  transform: rotate(90deg);
+  transition: transform 0.4s ease;
+}
+
+/* IMAGEM ABAIXO DO MAPA */
+.imagem-abaixo-mapa {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.imagem-abaixo-mapa img {
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
