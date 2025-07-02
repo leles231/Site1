@@ -50,3 +50,19 @@ function enviarFormulario(event) {
 
   return false;
 }
+  const menuToggle = document.querySelector('.menu-toggle');
+  const menuLateral = document.querySelector('.menu-lateral');
+
+  menuToggle.addEventListener('click', () => {
+    menuLateral.classList.toggle('ativo');
+    menuToggle.classList.toggle('ativo');
+  });
+
+  // Fecha menu ao clicar fora (opcional)
+  document.addEventListener('click', (e) => {
+    if (!menuLateral.contains(e.target) && !menuToggle.contains(e.target)) {
+      menuLateral.classList.remove('ativo');
+      menuToggle.classList.remove('ativo');
+    }
+  });
+
