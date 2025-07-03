@@ -76,7 +76,7 @@ main {
 /* TÍTULO */
 .titulo-artigos {
   text-align: center;
-  font-size: 19px;
+  font-size: 15px;
   margin: 20px 0 10px 0;
   color: #1b5e20;
 }
@@ -108,8 +108,8 @@ header {
 /* BLOCOS */
 .bloco {
   background-color: #e8f5e9;
-  border-radius: 15px;
-  padding: 12px;
+  border-radius: 18px;
+  padding: 14px;
   margin: 20px 0;
   text-align: center;
   opacity: 0;
@@ -129,17 +129,17 @@ header {
 .botao {
   display: inline-block;
   margin-top: 12px;
-  padding: 10px 80px;
+  padding: 10px 70px;
   background-color: rgba(27, 94, 32, 0.8);
   color: white;
   text-decoration: none;
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 19px;
   transition: background-color 0.3s;
 }
 
 .botao:hover {
-  background-color: rgba(27, 94, 32, 1);
+  background-color: rgba(27, 94, 32, 0.8);
 }
 
 /* BANNER COM TEXTO SOBREPOSTO */
@@ -231,7 +231,7 @@ header {
 }
 
 .card p {
-  font-size: 14px;
+  font-size: 13px;
   color: #2e7d32;
   margin-bottom: 12px;
 }
@@ -239,7 +239,7 @@ header {
 .card a {
   display: inline-block;
   padding: 10px 12px;
-  font-size: 12px;
+  font-size: 11px;
   border-radius: 15px;
   background-color: #388e3c;
   color: white;
@@ -263,7 +263,7 @@ header {
 }
 
 .formulario label {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: #2e7d32;
 }
@@ -274,7 +274,7 @@ header {
   border: 1px solid #a5d6a7;
   border-radius: 15px;
   padding: 15px;
-  font-size: 13px;
+  font-size: 12px;
   color: #1b5e20;
   resize: none;
   outline: none;
@@ -291,7 +291,7 @@ header {
   background-color: rgba(56, 142, 60, 0.8);
   padding: 10px 70px;
   border-radius: 20px
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   color: white;
   border: none;
@@ -315,15 +315,15 @@ header {
 .conteudo-mapa h3{
   text-align: center;
   color: #4e4e4e;
-  font-size: 19px; 
-  margin: 14px;
+  font-size: 20px; 
+  margin: 15px;
 }
 }
 
 .conteudo-mapa p {
   text-align: center;
   color: #4e4e4e;
-  margin: 12px;
+  margin: 15px;
 }
 
 #mapa h3,
