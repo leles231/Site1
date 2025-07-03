@@ -23,7 +23,7 @@ main {
   top: 0;
   width: 60%;
   height: 100%;
-  background-color: rgba(57, 130, 61, 0.9);
+  background-color: rgba(57, 130, 61, 0.8);
   color: white;
   padding: 10px;
   display: flex;
@@ -176,7 +176,7 @@ header {
 .bloco-imagem .texto-imagem p {
   color: white;
   font-size:20px; 
-  margin: 14px;
+  margin: 18px;
 }
 
 /* INTRODUÇÃO */
@@ -268,9 +268,9 @@ header {
 .formulario textarea {
   background-color: rgba(200, 230, 201, 0.2);
   border: 1px solid #a5d6a7;
-  border-radius: 14px;
-  padding: 15px;
-  font-size: 14px;
+  border-radius: 15px;
+  padding: 18px;
+  font-size: 13px;
   color: #1b5e20;
   resize: none;
   outline: none;
@@ -283,11 +283,11 @@ header {
 }
 
 .formulario button.botao {
-  max-width: 400px;
+  max-width: 420px;
   align-self: center;
-  background-color: rgba(56, 142, 60, 0.8);
-  padding: 10px;
-  border-radius: 25px;
+  background-color: rgba(56, 142, 60, 0.7);
+  padding: 12px;
+  border-radius: 22px;
   font-size: 18px;
   font-weight: bold;
   color: white;
@@ -338,7 +338,7 @@ footer {
 }
 
 .logo-footer {
-  width: 60px;
+  width: 65px;
   height: 55px;
   border-radius: 50%;
   margin-bottom: 10px;
