@@ -377,7 +377,7 @@ footer {
 .missao p {
   font-style: italic;
   font-size: 15px;
-  color: #444;
+  color: #1b5e20;
 }
 
 /* CENTRALIZAÇÃO DE TÍTULOS E TEXTOS DO MAPA */
@@ -387,7 +387,7 @@ footer {
 .texto-abaixo-mapa {
   text-align: center;
   font-size: 15px;
-  color: #4e4e4e;
+  color: #1b5e20;
   margin-top: 12px;
   margin-bottom: 18px;
   padding: 0 10px;
