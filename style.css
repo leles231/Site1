@@ -1,4 +1,4 @@
-/* RESET & CONFIGURAÇÕES GERAIS */
+/* CONFIGURAÇÕES GERAIS */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -16,11 +16,11 @@ main {
   padding: 10px;
 }
 
-/* MENU LATERAL COM ANIMAÇÃO À DIREITA */
+/* MENU LATERAL DIREITO COM ANIMAÇÃO */
 .menu-lateral {
   position: fixed;
-  top: 0;
   right: 0;
+  top: 0;
   width: 60%;
   height: 100%;
   background-color: rgba(57, 130, 61, 1);
@@ -60,6 +60,27 @@ main {
   align-items: center;
 }
 
+/* ÍCONE HAMBÚRGUER */
+.menu-toggle {
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1200;
+  transition: transform 0.4s ease;
+}
+
+.menu-toggle.ativo {
+  transform: rotate(90deg);
+}
+
+/* TÍTULO */
+.titulo-artigos {
+  text-align: center;
+  font-size: 19px;
+  margin: 20px 0 10px 0;
+  color: #1b5e20;
+}
+
 /* CABEÇALHO */
 header {
   display: flex;
@@ -70,17 +91,6 @@ header {
   padding: 10px 20px;
   position: relative;
   z-index: 1000;
-}
-
-.menu-toggle {
-  font-size: 30px;
-  cursor: pointer;
-  z-index: 1200;
-}
-
-.menu-toggle.ativo {
-  transform: rotate(90deg);
-  transition: transform 0.4s ease;
 }
 
 .titulo-projeto {
@@ -132,13 +142,12 @@ header {
   background-color: rgba(27, 94, 32, 1);
 }
 
-/* BANNER */
+/* BANNER COM TEXTO SOBREPOSTO */
 .bloco-imagem {
   position: relative;
   background-image: url('ufs.png');
   background-size: cover;
   background-position: center;
-  border-radius: 0px;
   padding: 8px;
   margin: 5px 0;
   color: white;
@@ -165,8 +174,8 @@ header {
 
 .bloco-imagem .texto-imagem h3,
 .bloco-imagem .texto-imagem p {
-  margin: 0;
   color: white;
+  margin: 10px;
 }
 
 /* INTRODUÇÃO */
@@ -187,7 +196,6 @@ header {
   font-size: 14px;
   color: #4e4e4e;
   line-height: 1.5;
-  margin-bottom: 14px;
 }
 
 .legenda {
@@ -196,17 +204,45 @@ header {
 }
 
 /* CARDS */
-.card-verde {
-  box-shadow: 0 1px 4px rgba(0, 50, 0, 0.1);
-  background-color: #e8f5e9;
-  border-radius: 10px;
-  padding: 15px;
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
 }
 
-.card-verde img {
-  width: 100%;
+.card {
+  background-color: #e8f5e9;
+  padding: 12px;
   border-radius: 10px;
-  margin-top: 10px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 50, 0, 0.1);
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #2e7d32;
+  margin-bottom: 12px;
+}
+
+.card a {
+  display: inline-block;
+  padding: 10px 12px;
+  font-size: 12px;
+  border-radius: 15px;
+  background-color: #388e3c;
+  color: white;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background-color: #2e7d32;
 }
 
 /* FORMULÁRIO */
@@ -225,7 +261,6 @@ header {
   font-size: 16px;
   font-weight: 600;
   color: #2e7d32;
-  margin-bottom: 5px;
 }
 
 .formulario input,
@@ -234,7 +269,7 @@ header {
   border: 1px solid #a5d6a7;
   border-radius: 14px;
   padding: 15px;
-  font-size: 12px;
+  font-size: 14px;
   color: #1b5e20;
   resize: none;
   outline: none;
@@ -247,7 +282,6 @@ header {
 }
 
 .formulario button.botao {
-  width: 100%;
   max-width: 240px;
   align-self: center;
   background-color: rgba(56, 142, 60, 1);
@@ -277,6 +311,8 @@ header {
 .conteudo-mapa h3,
 .conteudo-mapa p {
   text-align: center;
+  color: #4e4e4e;
+  margin: 10px;
 }
 
 /* IMAGEM ABAIXO DO MAPA */
@@ -288,7 +324,7 @@ header {
 .imagem-abaixo-mapa img {
   width: 90%;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* RODAPÉ */
@@ -315,7 +351,7 @@ footer {
   }
 }
 
-/* ANIMAÇÃO */
+/* ANIMAÇÃO FADE */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
