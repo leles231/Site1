@@ -386,9 +386,10 @@ footer {
 /* TEXTO ABAIXO DA IMAGEM DO MAPA */
 .texto-abaixo-mapa {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   color: #1b5e20;
   margin-top: 12px;
+  font-style: italic; 
   margin-bottom: 15px;
   padding: 0 10px;
 }
