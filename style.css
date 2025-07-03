@@ -322,6 +322,11 @@ header {
   margin: 14px;
 }
 
+#mapa h3,
+#mapa p {
+  text-align: center;
+}
+
 /* IMAGEM ABAIXO DO MAPA */
 .imagem-abaixo-mapa {
   margin-top: 20px;
@@ -349,6 +354,41 @@ footer {
   border-radius: 50%;
   margin-bottom: 10px;
 }
+
+/* MISSÃO */
+.missao {
+  background-color: #f1f8e9;
+  padding: 20px;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 12px;
+}
+
+.missao h4 {
+  font-size: 20px;
+  color: #1b5e20;
+  margin-bottom: 10px;
+}
+
+.missao p {
+  font-style: italic;
+  font-size: 15px;
+  color: #444;
+}
+
+/* CENTRALIZAÇÃO DE TÍTULOS E TEXTOS DO MAPA */
+
+
+/* TEXTO ABAIXO DA IMAGEM DO MAPA */
+.texto-abaixo-mapa {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
 
 /* RESPONSIVO */
 @media (max-width: 600px) {
