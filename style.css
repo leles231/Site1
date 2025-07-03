@@ -315,14 +315,14 @@ header {
 .conteudo-mapa h3{
   text-align: center;
   color: #4e4e4e;
-  font-size: 20px; 
+  font-size: 18px; 
   margin: 15px;
 }
 
 .conteudo-mapa p {
   text-align: center;
   color: #4e4e4e;
-  font-size: 12px;
+  font-size: 10px;
   margin: 15px;
 }
 
@@ -362,14 +362,14 @@ footer {
 /* MISSÃO */
 .missao {
   background-color: rgba(241, 248, 233, 0.3);
-  padding: 18px;
+  padding: 16px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 13px;
   border-radius: 18px;
 }
 
 .missao h4 {
-  font-size: 18px;
+  font-size: 20px;
   color: #1b5e20;
   margin-bottom: 10px;
 }
