@@ -174,11 +174,12 @@ header {
 
 .bloco-imagem .texto-imagem h3 {
   color: white;
-  font-size:18px;
+  font-size:20px;
+  margin: 20px;
 }
 .bloco-imagem .texto-imagem p {
   color: white;
-  font-size:16px; 
+  font-size:17px; 
   margin: 20px;
 }
 
