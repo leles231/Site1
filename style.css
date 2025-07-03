@@ -162,7 +162,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -172,10 +172,13 @@ header {
   text-align: center;
 }
 
-.bloco-imagem .texto-imagem h3,
+.bloco-imagem .texto-imagem h3 {
+  color: white;
+  font-size:18px;
+}
 .bloco-imagem .texto-imagem p {
   color: white;
-  font-size:17px; 
+  font-size:16px; 
   margin: 20px;
 }
 
@@ -311,7 +314,7 @@ header {
 .conteudo-mapa h3{
   text-align: center;
   color: #4e4e4e;
-  font-size: 17px; 
+  font-size: 19px; 
   margin: 14px;
 }
 }
@@ -319,7 +322,7 @@ header {
 .conteudo-mapa p {
   text-align: center;
   color: #4e4e4e;
-  margin: 14px;
+  margin: 12px;
 }
 
 #mapa h3,
@@ -357,11 +360,11 @@ footer {
 
 /* MISSÃO */
 .missao {
-  background-color: #f1f8e9;
+  background-color: rgba(241, 248, 233, 0.3);
   padding: 20px;
   text-align: center;
   margin-top: 15px;
-  border-radius: 12px;
+  border-radius: 18px;
 }
 
 .missao h4 {
@@ -383,9 +386,9 @@ footer {
 .texto-abaixo-mapa {
   text-align: center;
   font-size: 14px;
-  color: #333;
-  margin-top: 15px;
-  margin-bottom: 20px;
+  color: #4e4e4e;
+  margin-top: 12px;
+  margin-bottom: 18px;
   padding: 0 10px;
 }
 
