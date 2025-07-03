@@ -283,10 +283,10 @@ header {
 }
 
 .formulario button.botao {
-  max-width: 420px;
+  max-width: 200px;
   align-self: center;
-  background-color: rgba(56, 142, 60, 0.7);
-  padding: 12px;
+  background-color: rgba(56, 142, 60, 0.8);
+  padding: 12px 65px;
   border-radius: 22px;
   font-size: 18px;
   font-weight: bold;
