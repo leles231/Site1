@@ -318,11 +318,11 @@ header {
   font-size: 20px; 
   margin: 15px;
 }
-}
 
 .conteudo-mapa p {
   text-align: center;
   color: #4e4e4e;
+  font-size: 15px;
   margin: 15px;
 }
 
@@ -386,7 +386,7 @@ footer {
 /* TEXTO ABAIXO DA IMAGEM DO MAPA */
 .texto-abaixo-mapa {
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   color: #4e4e4e;
   margin-top: 12px;
   margin-bottom: 18px;
