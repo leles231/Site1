@@ -23,7 +23,7 @@ main {
   top: 0;
   width: 60%;
   height: 100%;
-  background-color: rgba(57, 130, 61, 0.8);
+  background-color: rgba(57, 130, 61, 0.9);
   color: white;
   padding: 10px;
   display: flex;
@@ -40,12 +40,12 @@ main {
 .menu-lateral ul {
   list-style: none;
   padding: 0;
-  margin-top: 14px;
+  margin-top: 18px;
 }
 
 .menu-lateral ul li {
   border-bottom: 1px solid rgba(165, 214, 167, 0.5);
-  padding: 12px 22px;
+  padding: 15px 25px;
 }
 
 .menu-lateral ul li:last-child {
@@ -175,7 +175,7 @@ header {
 .bloco-imagem .texto-imagem h3,
 .bloco-imagem .texto-imagem p {
   color: white;
-  font-size:20px; 
+  font-size:16px; 
   margin: 18px;
 }
 
@@ -309,11 +309,18 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.conteudo-mapa h3,
+.conteudo-mapa h3{
+  text-align: center;
+  color: #4e4e4e;
+  font-size: 17px; 
+  margin: 14px;
+}
+}
+
 .conteudo-mapa p {
   text-align: center;
   color: #4e4e4e;
-  margin: 13px;
+  margin: 14px;
 }
 
 /* IMAGEM ABAIXO DO MAPA */
