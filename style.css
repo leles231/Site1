@@ -176,7 +176,7 @@ header {
 .bloco-imagem .texto-imagem p {
   color: white;
   font-size:17px; 
-  margin: 7px;
+  margin: 20px;
 }
 
 /* INTRODUÇÃO */
@@ -283,11 +283,10 @@ header {
 }
 
 .formulario button.botao {
-  max-width: 220px;
   align-self: center;
   background-color: rgba(56, 142, 60, 0.8);
-  padding: 15px 70px;
-  border-radius: 22px;
+  padding: 10px 70px;
+  border-radius: 20px
   font-size: 18px;
   font-weight: bold;
   color: white;
@@ -345,7 +344,7 @@ footer {
 }
 
 .logo-footer {
-  width: 65px;
+  width: 60px;
   height: 55px;
   border-radius: 50%;
   margin-bottom: 10px;
