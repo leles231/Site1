@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto UEFS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="titulo-projeto">
+    <img src="logo.png" alt="Logo do Projeto" class="logo">
+    <h3>Sustainable University</h3>
+  </div>
+  <div id="menu-toggle" class="menu-toggle">☰</div>
+</header>
+
+<nav id="menu-lateral" class="menu-lateral">
+  <ul>
+    <li><a href="index.html">Início</a></li>
+    <li><a href="bio.html">Biodiversidade</a></li>
+    <li><a href="gestao.html">Gestão do Campus</a></li>
+    <li><a href="#opiniao">Participar</a></li>
+  </ul>
+</nav>
+
+<main>
+  <!-- Bloco de Apresentação do Projeto -->
+  <section class="bloco show">
+    <h2>Sobre o Projeto</h2>
+    <p>
+      O projeto "Gestão de Socioecossistemas da UEFS" visa promover a sustentabilidade e educação ambiental no campus da <strong>Universidade Estadual de Feira de Santana (UEFS)</strong>. Através da integração entre pesquisa, extensão e ensino, buscamos desenvolver ações que valorizem os bens naturais, promovam a conscientização da comunidade e contribuam para uma gestão participativa dos recursos ambientais.
+    </p>
+  </section>
+
+  <!-- Imagem ilustrativa -->
+  <section class="imagem-abaixo-mapa">
+    <img src="imagem_projeto.jpg" alt="Imagem representando o projeto da universidade">
+  </section>
+
+  <!-- Texto com mais detalhes -->
+  <section class="introducao">
+    <h3>Objetivos do Projeto</h3>
+    <div class="conteudo-introducao">
+      <p>
+        O projeto busca mapear os desafios socioambientais presentes no campus, como descarte inadequado de resíduos, perda de biodiversidade e falta de conscientização ambiental. A partir disso, propõe-se a implementação de ações educativas, pesquisas interdisciplinares e campanhas de engajamento para envolver toda a comunidade acadêmica na preservação do espaço universitário.
+      </p>
+      <p>
+        Além disso, promovemos oficinas, trilhas ecológicas, produção de material informativo e uso de tecnologias digitais para difundir boas práticas ambientais.
+      </p>
+    </div>
+  </section>
+
+  <!-- Anexo do Google Drive -->
+  <section class="bloco show">
+    <h2>Material do Projeto</h2>
+    <p>Acesse o documento oficial com o plano de ação, diagnóstico ambiental e propostas:</p>
+    <iframe src="https://drive.google.com/file/d/SEU_ID_DO_ARQUIVO/preview" width="100%" height="400" allow="autoplay"></iframe>
+    <!-- Substitua SEU_ID_DO_ARQUIVO pelo ID real do arquivo do Google Drive -->
+  </section>
+
+  <!-- Formulário de Opinião -->
+  <section id="opiniao" class="titulo-artigos">
+    <form class="formulario" onsubmit="return enviarFormulario(event)">
+      <h4>DEIXE SUA OPINIÃO</h4>
+      <label for="nome">👤 Nome:</label>
+      <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+      <label for="email">📧 E-mail:</label>
+      <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+      <label for="sugestao">💬 Sugestão:</label>
+      <textarea id="sugestao" name="sugestao" rows="4" required placeholder="Escreva sua sugestão aqui..."></textarea>
+
+      <button type="submit" class="botao">Enviar</button>
+      <p id="mensagem-enviada" style="display: none; color: #2e7d32; font-weight: bold; margin-top: 10px;">✔️ Obrigado pela sua opinião!</p>
+    </form>
+  </section>
+</main>
+
+<!-- Rodapé -->
+<footer>
+  <img src="logo.png" alt="Logo" class="logo-footer">
+  <p>Projeto de Extensão UEFS – Educação ambiental e gestão participativa</p>
+  <p><i>Universidade Estadual de Feira de Santana, Avenida Transnordestina, s/n, Novo Horizonte, Feira de Santana-BA</i></p>
+
+</body>
+</html>
