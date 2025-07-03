@@ -23,7 +23,7 @@ main {
   top: 0;
   width: 60%;
   height: 100%;
-  background-color: rgba(57, 130, 61, 0.9);
+  background-color: rgba(57, 130, 61, 1);
   color: white;
   padding: 10px;
   display: flex;
@@ -175,8 +175,8 @@ header {
 .bloco-imagem .texto-imagem h3,
 .bloco-imagem .texto-imagem p {
   color: white;
-  font-size:16px; 
-  margin: 18px;
+  font-size:18px; 
+  margin: 10px;
 }
 
 /* INTRODUÇÃO */
@@ -200,7 +200,7 @@ header {
 }
 
 .legenda {
-  font-size: 13px;
+  font-size: 14px;
   color: #4e4e4e;
 }
 
@@ -283,10 +283,10 @@ header {
 }
 
 .formulario button.botao {
-  max-width: 200px;
+  max-width: 150px;
   align-self: center;
   background-color: rgba(56, 142, 60, 0.8);
-  padding: 12px 65px;
+  padding: 12px 75px;
   border-radius: 22px;
   font-size: 18px;
   font-weight: bold;
@@ -330,7 +330,7 @@ header {
 }
 
 .imagem-abaixo-mapa img {
-  width: 80%;
+  width: 100%;
   border-radius: 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
