@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodiversidade no Campus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="titulo-projeto">
+    <img src="logo.png" alt="Logo do Projeto" class="logo">
+    <h3>Sustainable University</h3>
+  </div>
+  <div id="menu-toggle" class="menu-toggle">☰</div>
+</header>
+
+<nav id="menu-lateral" class="menu-lateral">
+  <ul>
+    <li><a href="index.html">Início</a></li>
+    <li><a href="projeto.html">Sobre o Projeto</a></li>
+    <li><a href="gestao.html">Gestão do Campus</a></li>
+    <li><a href="#opiniao">Participar</a></li>
+  </ul>
+</nav>
+
+<main>
+  <!-- Bloco com imagem e texto -->
+  <section class="bloco-imagem">
+    <div class="texto-imagem">
+      <h3>Biodiversidade da UEFS</h3>
+      <p>Preservando a riqueza natural do nosso campus</p>
+    </div>
+  </section>
+
+  <!-- Introdução sobre biodiversidade -->
+  <section class="introducao">
+    <h3>Importância da Biodiversidade</h3>
+    <div class="conteudo-introducao">
+      <p>
+        O campus da UEFS é um verdadeiro refúgio de biodiversidade, abrigando diversas espécies de fauna e flora que contribuem para o equilíbrio ecológico local. Com áreas verdes preservadas, matas ciliares e jardins, o ambiente favorece a presença de pássaros, insetos polinizadores, pequenos mamíferos, além de uma variedade de plantas nativas.
+      </p>
+      <p>
+        Conhecer a biodiversidade presente na universidade é essencial para valorizarmos e protegermos os ecossistemas que nos cercam.
+      </p>
+    </div>
+  </section>
+
+  <!-- Seção fauna -->
+  <section class="bloco show">
+    <h2>Fauna do Campus</h2>
+    <p>Conheça alguns animais que fazem parte da paisagem natural da UEFS:</p>
+    <img src="fauna.jpg" alt="Animais no campus" style="border-radius: 10px; margin-top: 10px;">
+  </section>
+
+  <!-- Seção flora -->
+  <section class="bloco fundo-claro show">
+    <h2>Flora Diversificada</h2>
+    <p>Espécies nativas e exóticas compõem a vegetação do campus, trazendo beleza e equilíbrio ao ambiente universitário.</p>
+    <img src="flora.jpg" alt="Plantas do campus" style="border-radius: 10px; margin-top: 10px;">
+  </section>
+
+  <!-- Vídeo opcional (pode substituir) -->
+  <section class="bloco show">
+    <h2>Vídeo Educativo</h2>
+    <p>Assista a um breve vídeo sobre a importância da biodiversidade:</p>
+    <iframe width="100%" height="250" src="https://www.youtube.com/embed/ZZ-BhZTVJzs" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <!-- Formulário de Opinião -->
+  <section id="opiniao" class="titulo-artigos">
+    <form class="formulario" onsubmit="return enviarFormulario(event)">
+      <h4>DEIXE SUA OPINIÃO</h4>
+      <label for="nome">👤 Nome:</label>
+      <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+      <label for="email">📧 E-mail:</label>
+      <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+      <label for="sugestao">💬 Sugestão:</label>
+      <textarea id="sugestao" name="sugestao" rows="4" required placeholder="Escreva sua sugestão aqui..."></textarea>
+
+      <button type="submit" class="botao">Enviar</button>
+      <p id="mensagem-enviada" style="display: none; color: #2e7d32; font-weight: bold; margin-top: 10px;">✔️ Obrigado pela sua opinião!</p>
+    </form>
+  </section>
+</main>
+
+<!-- Rodapé -->
+<footer>
+  <img src="logo.png" alt="Logo" class="logo-footer">
+  <p>Projeto de Extensão UEFS – Educação ambiental e gestão participativa</p>
+  <p><i>Universidade Estadual de Feira de Santana, Avenida Transnordestina, s/n, Novo Horizonte, Feira de Santana-BA</i></p>
+</footer>
+
+</body>
+</html>
