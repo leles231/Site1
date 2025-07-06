@@ -339,7 +339,7 @@ header {
 
 .imagem-abaixo-mapa img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
@@ -350,7 +350,7 @@ header {
 
 .imagem-logo img {
   width: 80%;
-  border-radius: 50%;
+  border-radius: 100%;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
