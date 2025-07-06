@@ -343,6 +343,17 @@ header {
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
+.imagem-logo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.imagem-logo img {
+  width: 80%;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
 /* RODAPÉ */
 footer {
   background-color: #1b5e20;
