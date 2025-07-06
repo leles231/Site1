@@ -350,6 +350,7 @@ header {
 
 .imagem-logo img {
   width: 50%;
+  height: 50%; 
   border-radius: 100%;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
