@@ -344,13 +344,13 @@ header {
 }
 
 .imagem-logo {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 
 .imagem-logo img {
-  width: 50%;
-  height: 50%; 
+  width: 30%;
+  height: 30%; 
   border-radius: 100%;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
