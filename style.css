@@ -349,8 +349,8 @@ header {
 }
 
 .imagem-logo img {
-  width: 30%;
-  height: 30%; 
+  width: 40%;
+  height: 40%; 
   border-radius: 100%;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
