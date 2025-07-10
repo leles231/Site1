@@ -406,6 +406,23 @@ footer {
   padding: 0 10px;
 }
 
+.entrevista {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 13px;
+  text-align: center;
+  color: #333;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.entrevista h3 {
+  font-size: 18px;
+  color: #2e7d32;
+  margin-bottom: 15px;
+  text-align: center;
+}
 
 /* RESPONSIVO */
 @media (max-width: 600px) {
