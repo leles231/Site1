@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Artigos Científicos - UEFS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="titulo-projeto">
+    <img src="logo.png" alt="Logo do Projeto" class="logo" />
+    <h3>Sustainable University</h3>
+  </div>
+  <div id="menu-toggle" class="menu-toggle">☰</div>
+</header>
+
+<nav id="menu-lateral" class="menu-lateral">
+  <ul>
+    <li><a href="index.html">Início</a></li>
+    <li><a href="bio.html">Biodiversidade</a></li>
+    <li><a href="gestao.html">Gestão do Campus</a></li>
+    <li><a href="projeto.html">Projeto</a></li>
+    <li><a href="artigos.html">Artigos</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- Bloco Imagem de Fundo -->
+  <section id="inicio">
+    <div class="bloco-imagem">
+      <div class="texto-imagem">
+        <h3><strong>Depósito de Artigos</strong></h3>
+        <p>Conheça pesquisas sobre o campus da UEFS</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Artigos -->
+  <section class="introducao">
+    <h3>ARTIGOS DISPONÍVEIS</h3>
+    <div class="conteudo-introducao">
+      <p>
+        Esta seção apresenta artigos científicos e trabalhos acadêmicos relacionados à biodiversidade, gestão ambiental e sustentabilidade da Universidade Estadual de Feira de Santana. Eles foram desenvolvidos por pesquisadores, estudantes e professores engajados na conservação dos recursos naturais do campus.
+      </p>
+    </div>
+  </section>
+
+  <!-- Bloco de Artigos -->
+  <section class="bloco-artigos">
+    <div class="artigo">
+      <h4>Levantamento da Flora do Campus UEFS</h4>
+      <p>Estudo detalhado sobre as espécies vegetais encontradas no entorno do campus universitário.</p>
+      <a href="https://example.com/artigo1" target="_blank" class="botao pequeno">Acessar Artigo</a>
+    </div>
+
+    <div class="artigo">
+      <h4>Impacto do Lixo na Fauna Local</h4>
+      <p>Análise dos resíduos sólidos e seus efeitos sobre os animais do campus.</p>
+      <a href="https://example.com/artigo2" target="_blank" class="botao pequeno">Acessar Artigo</a>
+    </div>
+
+    <div class="artigo">
+      <h4>Educação Ambiental como Ferramenta Transformadora</h4>
+      <p>Reflexões sobre práticas educativas realizadas com a comunidade acadêmica.</p>
+      <a href="https://example.com/artigo3" target="_blank" class="botao pequeno">Acessar Artigo</a>
+    </div>
+  </section>
+
+  <!-- Formulário de Opinião -->
+  <section id="opiniao" class="titulo-artigos">
+    <form class="formulario" onsubmit="return enviarFormulario(event)">
+      <h4>DEIXE SUA OPINIÃO</h4>
+      <label for="nome">👤 Nome:</label>
+      <input type="text" id="nome" name="nome" required placeholder="Digite seu nome" />
+
+      <label for="email">📧 E-mail:</label>
+      <input type="email" id="email" name="email" required placeholder="Digite seu e-mail" />
+
+      <label for="sugestao">💬 Sugestão:</label>
+      <textarea id="sugestao" name="sugestao" rows="4" required placeholder="Escreva sua sugestão aqui..."></textarea>
+
+      <button type="submit" class="botao">Enviar</button>
+      <p id="mensagem-enviada" style="display: none; color: #2e7d32; font-weight: bold; margin-top: 10px;">✔️ Obrigado pela sua opinião!</p>
+    </form>
+  </section>
+
+</main>
+
+<!-- Rodapé -->
+<footer>
+  <img src="logo.png" alt="Logo" class="logo-footer" />
+  <p>Projeto de Extensão UEFS – Educação ambiental e gestão participativa</p>
+  <p><i>Universidade Estadual de Feira de Santana, Avenida Transnordestina, s/n, Novo Horizonte, Feira de Santana-BA</i></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
