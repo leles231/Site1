@@ -393,22 +393,24 @@ footer {
 
 
 duvida{
-  background-color: rgba(241, 248, 233, 0.3);
-  padding: 16px;
+  background-color: rgba(241, 248, 233, 0.4);
+  padding: 14px;
   text-align: center;
-  margin-top: 13px;
+  margin-top: 11px;
   border-radius: 18px;
 }
 
 .duvida h4 {
-  font-size: 20px;
+  font-size: 18px;
   color: #1b5e20;
+  text-align: center;
   margin-bottom: 10px;
 }
 
 .duvida p {
   font-style: italic;
-  font-size: 12px;
+  font-size: 14px;
+  text-align: center;
   color: #1b5e20;
 }
 
