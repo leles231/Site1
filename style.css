@@ -394,7 +394,7 @@ footer {
 
 duvida{
   background-color: rgba(241, 248, 233, 0.6);
-  padding: 14px;
+  padding: 10px;
   text-align: center;
   margin-top: 10px;
   border-radius: 18px;
@@ -409,7 +409,7 @@ duvida{
 
 .duvida p {
   font-style: italic;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
   color: #1b5e20;
 }
