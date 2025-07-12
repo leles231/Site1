@@ -348,7 +348,7 @@ header {
 }
 
 .imagem-logo img {
-  width: 70%;
+  width: 50%;
   border-radius: 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
@@ -388,6 +388,27 @@ footer {
 .missao p {
   font-style: italic;
   font-size: 15px;
+  color: #1b5e20;
+}
+
+
+duvida{
+  background-color: rgba(241, 248, 233, 0.3);
+  padding: 16px;
+  text-align: center;
+  margin-top: 13px;
+  border-radius: 18px;
+}
+
+.duvida h4 {
+  font-size: 20px;
+  color: #1b5e20;
+  margin-bottom: 10px;
+}
+
+.duvida p {
+  font-style: italic;
+  font-size: 12px;
   color: #1b5e20;
 }
 
