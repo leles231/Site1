@@ -348,7 +348,7 @@ header {
 }
 
 .imagem-logo img {
-  width: 50%;
+  width: 65%;
   border-radius: 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
@@ -393,9 +393,8 @@ footer {
 
 
 duvida{
-  background-color: rgba(241, 248, 233, 1);
+  background-color: rgba(56, 142, 60, 0.5);
   padding: 15px;
-  text-align: center;
   margin-top: 14px;
   border-radius: 18px;
 }
