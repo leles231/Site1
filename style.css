@@ -479,6 +479,44 @@ duvida{
   margin-bottom: 10px;
 }
 
+/* TEXTO LONGO EM FORMATO DE CADERNO */
+.texto-longo-caderno {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 20px;
+  padding: 16px;
+  border-radius: 12px;
+  border-left: 4px solid #4caf50;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #333;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 24px,
+    rgba(180, 232, 184, 0.4) 25px
+  );
+}
+
+.texto-longo-caderno h4 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+/* BLOCO DE PDF COM BOTÃO */
+.bloco-pdf {
+  background-color: #f1f8e9;
+  padding: 16px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bloco-pdf a.botao {
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
 /* ANIMAÇÃO FADE */
 @keyframes fadeInUp {
   0% {
