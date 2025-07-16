@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Equipe - Gestão UEFS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="titulo-projeto">
+    <img src="logo.png" alt="Logo do Projeto" class="logo" />
+    <h3>Sustainable University</h3>
+  </div>
+  <div id="menu-toggle" class="menu-toggle">☰</div>
+</header>
+
+<nav id="menu-lateral" class="menu-lateral">
+  <ul>
+    <li><a href="index.html">Início</a></li>
+    <li><a href="bio.html">Biodiversidade</a></li>
+    <li><a href="gestao.html">Gestão do Campus</a></li>
+    <li><a href="projeto.html">Projeto</a></li>
+    <li><a href="equipe.html">Equipe</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- Bloco com título e frase -->
+  <section class="frase-titulo">
+    <h2>Conheça Nossa Equipe</h2>
+    <p><em>“Juntos construindo um campus mais sustentável e consciente.”</em></p>
+  </section>
+
+  <!-- Bloco introdutório -->
+  <section class="introducao">
+    <h3>Quem somos?</h3>
+    <div class="conteudo-introducao">
+      <p>
+        A equipe do projeto é composta por estudantes da graduação em Ciências Biológicas da UEFS, participantes da disciplina "Gestão de Socioecossistemas e Bens Comuns", e orientadores comprometidos com a promoção da sustentabilidade. Juntos, buscamos fortalecer a conscientização ambiental e transformar o campus em um exemplo de gestão participativa.
+      </p>
+    </div>
+  </section>
+
+  <!-- Participantes -->
+  <section class="bloco bloco-equipe">
+    <div class="membro">
+      <a href="link-para-foto1.jpg" target="_blank">
+        <img src="foto1.jpg" alt="Nome da Pessoa" class="foto-equipe" />
+      </a>
+      <h4>Maria Silva</h4>
+      <p>Graduanda em Ciências Biológicas - UEFS</p>
+    </div>
+
+    <div class="membro">
+      <a href="link-para-foto2.jpg" target="_blank">
+        <img src="foto2.jpg" alt="Nome da Pessoa" class="foto-equipe" />
+      </a>
+      <h4>João Santos</h4>
+      <p>Graduando em Ciências Biológicas - UEFS</p>
+    </div>
+
+    <div class="membro">
+      <a href="link-para-foto3.jpg" target="_blank">
+        <img src="foto3.jpg" alt="Nome da Pessoa" class="foto-equipe" />
+      </a>
+      <h4>Ana Souza</h4>
+      <p>Graduanda em Ciências Biológicas - UEFS</p>
+    </div>
+
+    <!-- Adicione mais membros conforme necessário -->
+  </section>
+
+  <!-- Formulário -->
+  <section id="opiniao" class="titulo-artigos">
+    <form class="formulario" onsubmit="return enviarFormulario(event)">
+      <h4>DEIXE SUA OPINIÃO</h4>
+      <label for="nome">👤 Nome:</label>
+      <input type="text" id="nome" name="nome" required placeholder="Digite seu nome" />
+
+      <label for="email">📧 E-mail:</label>
+      <input type="email" id="email" name="email" required placeholder="Digite seu e-mail" />
+
+      <label for="sugestao">💬 Sugestão:</label>
+      <textarea id="sugestao" name="sugestao" rows="4" required placeholder="Escreva sua sugestão aqui..."></textarea>
+
+      <button type="submit" class="botao">Enviar</button>
+      <p id="mensagem-enviada" style="display: none; color: #2e7d32; font-weight: bold; margin-top: 10px;">✔️ Obrigado pela sua opinião!</p>
+    </form>
+  </section>
+
+</main>
+
+<!-- Rodapé -->
+<footer>
+  <img src="logo.png" alt="Logo" class="logo-footer" />
+  <p>Projeto de Extensão UEFS – Educação ambiental e gestão participativa</p>
+  <p><i>Universidade Estadual de Feira de Santana, Avenida Transnordestina, s/n, Novo Horizonte, Feira de Santana-BA</i></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
