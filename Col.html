@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colabore e Participe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="titulo-projeto">
+    <img src="logo.png" alt="Logo do Projeto" class="logo" />
+    <h3>Sustainable University</h3>
+  </div>
+  <div id="menu-toggle" class="menu-toggle">☰</div>
+</header>
+
+<nav id="menu-lateral" class="menu-lateral">
+  <ul>
+    <li><a href="index.html">Início</a></li>
+    <li><a href="bio.html">Biodiversidade</a></li>
+    <li><a href="gestao.html">Gestão do Campus</a></li>
+    <li><a href="projeto.html">Projeto</a></li>
+    <li><a href="equipe.html">Equipe</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- Introdução -->
+  <section class="introducao">
+    <h3>Colabore com a Gestão Ambiental</h3>
+    <div class="conteudo-introducao">
+      <p>
+        Ajude-nos a identificar e resolver os problemas ambientais do campus! Preencha o formulário abaixo relatando qualquer ocorrência que tenha observado nos módulos da UEFS. Sua participação é essencial para uma gestão mais eficiente e sustentável.
+      </p>
+    </div>
+  </section>
+
+  <!-- Formulário de Participação -->
+  <section class="formulario">
+    <form action="/enviar-participacao" method="POST" enctype="multipart/form-data">
+      <h4>📣 Relate um Problema</h4>
+
+      <label for="nome">👤 Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">📧 E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="data">📅 Data da ocorrência:</label>
+      <input type="date" id="data" name="data" required>
+
+      <label for="modulo">🏢 Módulo onde ocorreu:</label>
+      <select id="modulo" name="modulo" required>
+        <option value="">Selecione</option>
+        <option value="1">Módulo 1</option>
+        <option value="2">Módulo 2</option>
+        <option value="3">Módulo 3</option>
+        <option value="4">Módulo 4</option>
+        <option value="5">Módulo 5</option>
+        <option value="6">Módulo 6</option>
+        <option value="7">Módulo 7</option>
+      </select>
+
+      <label for="problema">💬 Descreva o problema:</label>
+      <textarea id="problema" name="problema" rows="4" required></textarea>
+
+      <label for="foto">📷 Anexe uma imagem (opcional):</label>
+      <input type="file" id="foto" name="foto" accept="image/*">
+
+      <button type="submit" class="botao">Enviar relato</button>
+    </form>
+  </section>
+
+  <!-- Mapa -->
+  <section id="mapa">
+    <h3>MAPA UEFS</h3>
+    <p>Veja a localização dos módulos e áreas do campus.</p>
+    <section class="imagem-abaixo-mapa">
+      <img src="ufs.jpg" alt="Imagem aérea UEFS" />
+    </section>
+    <div class="mapa-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.162619253306!2d-38.96342398569365!3d-12.23395084647802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716f9d040c5eced%3A0x22d007bf471e28f5!2sUEFS%20-%20Universidade%20Estadual%20de%20Feira%20de%20Santana!5e0!3m2!1spt-BR!2sbr!4v1718079180000!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <img src="logo.png" alt="Logo" class="logo-footer" />
+  <p>Projeto de Extensão UEFS – Educação ambiental e gestão participativa</p>
+  <p><i>Universidade Estadual de Feira de Santana, Avenida Transnordestina, s/n, Novo Horizonte, Feira de Santana-BA</i></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
