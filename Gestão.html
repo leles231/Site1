@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestão Ambiental - UEFS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="titulo-projeto">
+    <img src="logo.png" alt="Logo do Projeto" class="logo" />
+    <h3>Sustainable University</h3>
+  </div>
+  <div id="menu-toggle" class="menu-toggle">☰</div>
+</header>
+
+<nav id="menu-lateral" class="menu-lateral">
+  <ul>
+    <li><a href="index.html">Início</a></li>
+    <li><a href="bio.html">Biodiversidade</a></li>
+    <li><a href="gestao.html">Gestão do Campus</a></li>
+    <li><a href="projeto.html">Projeto</a></li>
+    <li><a href="artigos.html">Artigos</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- Bloco Imagem com Título -->
+  <section id="inicio">
+    <div class="bloco-imagem">
+      <div class="texto-imagem">
+        <h3><strong>Gestão Ambiental no Campus</strong></h3>
+        <p>Preservar, educar e transformar</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introdução -->
+  <section class="introducao">
+    <h3>GESTÃO DO CAMPUS</h3>
+    <div class="conteudo-introducao">
+      <p>
+        A gestão ambiental da UEFS envolve práticas sustentáveis que visam reduzir impactos ecológicos e integrar a comunidade acadêmica em ações de preservação. Esta seção apresenta reflexões e relatos sobre as práticas de gestão de resíduos, uso consciente dos recursos e ações educativas realizadas no campus.
+      </p>
+    </div>
+  </section>
+
+  <!-- Texto longo com estilo de caderno -->
+  <section class="texto-longo-caderno">
+    <h4>Relato de Práticas de Gestão</h4>
+    <p>
+      A Universidade Estadual de Feira de Santana (UEFS) tem buscado implementar uma gestão ambiental participativa, envolvendo alunos, professores e servidores na promoção de um ambiente mais sustentável. Entre as ações destacam-se os programas de coleta seletiva, campanhas de conscientização, e uso racional da água e energia. Também são realizados mutirões ecológicos e eventos para discussão de políticas ambientais locais e institucionais. A integração entre ensino, pesquisa e extensão fortalece o compromisso com a sustentabilidade no cotidiano acadêmico...
+    </p>
+  </section>
+
+  <!-- PDF Entrevista -->
+  <section class="bloco bloco-pdf">
+    <h2>Entrevista sobre a Gestão</h2>
+    <p>Confira uma entrevista com um dos gestores ambientais do campus, destacando os desafios e conquistas da política de sustentabilidade na UEFS.</p>
+    <a href="https://drive.google.com/file/d/SEU_ID_DO_PDF/view" class="botao pequeno" target="_blank">Acessar Entrevista em PDF</a>
+  </section>
+
+  <!-- Formulário de Opinião -->
+  <section id="opiniao" class="titulo-artigos">
+    <form class="formulario" onsubmit="return enviarFormulario(event)">
+      <h4>DEIXE SUA OPINIÃO</h4>
+      <label for="nome">👤 Nome:</label>
+      <input type="text" id="nome" name="nome" required placeholder="Digite seu nome" />
+
+      <label for="email">📧 E-mail:</label>
+      <input type="email" id="email" name="email" required placeholder="Digite seu e-mail" />
+
+      <label for="sugestao">💬 Sugestão:</label>
+      <textarea id="sugestao" name="sugestao" rows="4" required placeholder="Escreva sua sugestão aqui..."></textarea>
+
+      <button type="submit" class="botao">Enviar</button>
+      <p id="mensagem-enviada" style="display: none; color: #2e7d32; font-weight: bold; margin-top: 10px;">✔️ Obrigado pela sua opinião!</p>
+    </form>
+  </section>
+
+</main>
+
+<!-- Rodapé -->
+<footer>
+  <img src="logo.png" alt="Logo" class="logo-footer" />
+  <p>Projeto de Extensão UEFS – Educação ambiental e gestão participativa</p>
+  <p><i>Universidade Estadual de Feira de Santana, Avenida Transnordestina, s/n, Novo Horizonte, Feira de Santana-BA</i></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
