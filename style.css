@@ -563,10 +563,11 @@ duvida{
 }
 
 .legenda-pequena {
-      font-size: 12px;
+      font-size: 15px;
       color: #555;
       margin-top: 8px;
       font-style: italic;
+      text-align: center;
     }
 
 /* ANIMAÇÃO FADE */
