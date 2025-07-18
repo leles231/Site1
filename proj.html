@@ -59,11 +59,17 @@
   </section>
   <br><br>
   
-  <section class="duvida">
-  <h4><strong>DÚVIDAS</strong></h4>
-  <p class="conteudo-duvida" >
-    Entre em contato: Socioecosistemasuefs@gmail.com </p>
-</section> <br>
+    <section id="opiniao" class="titulo-artigos">
+    <form class="formulario" onsubmit="return enviarFormulario(event)">
+      <h4>DEIXE SUA OPINIÃO</h4>
+ 
+      <label for="sugestao">Sugestões para os Projeto:</label>
+      <textarea id="sugestao" name="sugestao" rows="4" required placeholder="Escreva sua sugestão aqui..."></textarea>
+
+      <button type="submit" class="botao">Enviar</button>
+      <p id="mensagem-enviada" style="display: none; color: #2e7d32; font-weight: bold; margin-top: 10px;">✔️ Obrigado pela sua opinião!</p>
+    </form>
+  </section>
   </main>
 
 <!-- Rodapé -->
