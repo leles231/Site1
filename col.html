@@ -54,6 +54,147 @@
 
 
   <!-- Formulário de Participação -->
+ Você disse:
+  <section class="formulario">
+    <form action="/enviar-participacao" method="POST" enctype="multipart/form-data">
+      <h4>📣 Relate um Problema</h4>
+
+      <label for="nome">👤 Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">📧 E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="data">📅 Data da ocorrência:</label>
+      <input type="date" id="data" name="data" required>
+
+      <label for="modulo">🏢 Módulo onde ocorreu:</label>
+      <select id="modulo" name="modulo" required>
+        <option value="">Selecione</option>
+        <option value="1">Módulo 1</option>
+        <option value="2">Módulo 2</option>
+        <option value="3">Módulo 3</option>
+        <option value="4">Módulo 4</option>
+        <option value="5">Módulo 5</option>
+        <option value="6">Módulo 6</option>
+        <option value="7">Módulo 7</option>
+      </select>
+
+      <label for="problema">💬 Descreva o problema:</label>
+      <textarea id="problema" name="problema" rows="4" required></textarea>
+
+      <label for="foto">📷 Anexe uma imagem (opcional):</label>
+      <input type="file" id="foto" name="foto" accept="image/*">
+
+      <button type="submit" class="botao">Enviar relato</button>
+   
+
+ </form>
+  </section> <br> <br> 
+
+ Concerto esse código, deixei com css mais bonito e design para celular 
+
+
+O ChatGPT disse:
+Aqui está o código HTML corrigido e estilizado com CSS moderno, responsivo e bonito para celular, mantendo tons suaves e bordas arredondadas. O formulário fica centralizado e bem adaptado a telas pequenas, com foco na usabilidade:
+
+✅ HTML + CSS Integrado (pronto para uso)
+html
+Copiar
+Editar
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Relatar Problema</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e8f5e9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .formulario {
+      max-width: 500px;
+      margin: 30px auto;
+      background: #ffffff;
+      padding: 20px 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .formulario h4 {
+      text-align: center;
+      font-size: 24px;
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #388e3c;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #c8e6c9;
+      border-radius: 8px;
+      box-sizing: border-box;
+      font-size: 16px;
+      background: #f1f8e9;
+    }
+
+    input[type="file"] {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .botao {
+      display: block;
+      width: 100%;
+      background-color: #4caf50;
+      color: white;
+      padding: 12px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .botao:hover {
+      background-color: #388e3c;
+    }
+
+    @media (max-width: 600px) {
+      .formulario {
+        margin: 20px 10px;
+        padding: 15px 20px;
+      }
+
+      .formulario h4 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
   <section class="formulario">
     <form action="/enviar-participacao" method="POST" enctype="multipart/form-data">
       <h4>📣 Relate um Problema</h4>
@@ -87,7 +228,8 @@
 
       <button type="submit" class="botao">Enviar relato</button>
     </form>
-  </section> <br> <br> 
+  </section>
+  <br> <br> 
 
   <!-- Mapa -->
   <section id="mapa">
