@@ -393,10 +393,10 @@ footer {
 
 
 .duvida{
-  background-color: rgba(56, 142, 60, 0.5);
-  padding: 15px;
+  background-color: rgba(56, 142, 60, 0.3);
+  padding: 12px;
   margin-top: 14px;
-  border-radius: 18px;
+  border-radius: 20px;
 }
 
 .duvida h4 {
