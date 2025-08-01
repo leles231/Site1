@@ -250,12 +250,6 @@ header {
   background-color: #2e7d32;
 }
 
-    body {
-      font-family: Arial, sans-serif;
-      background: #e8f5e9;
-      margin: 0;
-      padding: 0;
-    }
 
     .formulario {
       max-width: 500px;
@@ -275,7 +269,7 @@ header {
 
     label {
       display: block;
-      margin-top: 15px;
+      margin-top: 10px;
       font-weight: bold;
       color: #388e3c;
     }
@@ -310,10 +304,10 @@ header {
       background-color: #4caf50;
       color: white;
       padding: 12px;
-      margin-top: 20px;
+      margin-top: 15px;
       border: none;
-      border-radius: 8px;
-      font-size: 18px;
+      boborder-radius: 12px;
+      font-size: 16px;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
@@ -322,17 +316,7 @@ header {
       background-color: #388e3c;
     }
 
-    @media (max-width: 600px) {
-      .formulario {
-        margin: 20px 10px;
-        padding: 15px 20px;
-      }
-
-      .formulario h4 {
-        font-size: 20px;
-      }
-    }
-
+    
 /* MAPA */
 .mapa-container {
   width: 100%;
