@@ -250,61 +250,6 @@ header {
   background-color: #2e7d32;
 }
 
-Você disse:
-  <section class="formulario">
-    <form action="/enviar-participacao" method="POST" enctype="multipart/form-data">
-      <h4>📣 Relate um Problema</h4>
-
-      <label for="nome">👤 Nome:</label>
-      <input type="text" id="nome" name="nome" required>
-
-      <label for="email">📧 E-mail:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="data">📅 Data da ocorrência:</label>
-      <input type="date" id="data" name="data" required>
-
-      <label for="modulo">🏢 Módulo onde ocorreu:</label>
-      <select id="modulo" name="modulo" required>
-        <option value="">Selecione</option>
-        <option value="1">Módulo 1</option>
-        <option value="2">Módulo 2</option>
-        <option value="3">Módulo 3</option>
-        <option value="4">Módulo 4</option>
-        <option value="5">Módulo 5</option>
-        <option value="6">Módulo 6</option>
-        <option value="7">Módulo 7</option>
-      </select>
-
-      <label for="problema">💬 Descreva o problema:</label>
-      <textarea id="problema" name="problema" rows="4" required></textarea>
-
-      <label for="foto">📷 Anexe uma imagem (opcional):</label>
-      <input type="file" id="foto" name="foto" accept="image/*">
-
-      <button type="submit" class="botao">Enviar relato</button>
-   
-
- </form>
-  </section> <br> <br> 
-
- Concerto esse código, deixei com css mais bonito e design para celular 
-
-
-O ChatGPT disse:
-Aqui está o código HTML corrigido e estilizado com CSS moderno, responsivo e bonito para celular, mantendo tons suaves e bordas arredondadas. O formulário fica centralizado e bem adaptado a telas pequenas, com foco na usabilidade:
-
-✅ HTML + CSS Integrado (pronto para uso)
-html
-Copiar
-Editar
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Relatar Problema</title>
-  <style>
     body {
       font-family: Arial, sans-serif;
       background: #e8f5e9;
@@ -631,7 +576,7 @@ footer {
 }
 
 .membro {
-  background-color: rgba(241, 248, 233, 0.9);
+  background-color: rgba(241, 248, 233, 0.7);
   padding: 12px;
   border-radius: 10px;
   text-align: center;
